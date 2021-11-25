@@ -197,35 +197,63 @@
   font-weight: bold;
   cursor: pointer;
 }
-.video{
+.video {
   margin-right: 30px;
 }
-.trial{
+.trial {
   display: flex;
 }
-.guide-tittle{
+.guide-tittle {
   font-size: 20px;
   line-height: 28px;
   font-weight: bold;
   margin: 0;
-
 }
-.demo-descr{
+.demo-descr {
   font-size: 20px;
 }
-.demo-link{
+.demo-link {
   text-decoration: none;
   font-size: 20px;
   font-weight: normal;
   color: white;
-  background-color: #025CBD;
+  background-color: #025cbd;
   padding: 6px 10px;
   border-radius: 8px;
   margin-top: 10px;
   border-style: none;
 }
-.trial-text{
+.trial-text {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+.video-guide {
+  margin-bottom: 50px;
+}
+.users-content {
+  display: flex;
+}
+.sity {
+  width: 100px;
+  height: 70px;
+  border-style: none;
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 0;
+  color: #025CBD;
+  background-color: white;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 122, 255, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 122, 255, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 122, 255, 0.25);
+}
+.sity:hover{
+  background-color: #025CBD;
+  color: white;
+}
+.map-img {
+  width: 89%;
+}
+.users-content{
+  margin-bottom: 50px;
 }
