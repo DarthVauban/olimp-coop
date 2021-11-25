@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+.header {
+  display: flex;
+  margin-top: 20px;
+}
+.container {
+  max-width: 1010px;
+  display: block;
+  margin: 0 auto;
+}
+.second-container {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.menu {
+  display: flex;
+}
+.link {
+  text-decoration: none;
+  color: #007aff;
+  margin-right: 25px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.button {
+  background-color: #025cbd;
+  color: white;
+  border-radius: 8px;
+  padding: 7px;
+  font-size: 18px;
+  font-weight: bold;
+  border-style: none;
+  cursor: pointer;
+}
+.ofer-title {
+  padding-top: 110px;
+}
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  color: #025cbd;
+  margin: 0;
+  padding-bottom: 15px;
+}
+.sub-title {
+  font-weight: normal;
+  font-size: 25px;
+  color: #025cbd;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.description {
+  font-weight: 500;
+  font-size: 17px;
+  margin: 0;
+}
+.first-block {
+  display: flex;
+}
+.desktop {
+  width: 50%;
+  margin-left: 70px;
+}
+.buttons {
+  margin-top: 25px;
+}
+.button1 {
+  background-color: #025cbd;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 13px;
+  font-size: 18px;
+  border-style: none;
+  cursor: pointer;
+}
+.button1:first-child {
+  margin-right: 30px;
+}
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+.for-us {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+.for-us-descr {
+  width: 490px;
+}
+.for-us-text {
+  font-size: 20px;
+  line-height: 28px;
+}
+.photo {
+  width: 100px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 0px, 4px rgba(2, 92, 189, 0.4);
+}
+.for-us-container {
+  display: flex;
+}
+.male-photo {
+  display: flex;
+  margin-left: 70px;
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 17px;
+  margin: 0;
+}
+.details {
+  font-size: 13px;
+  opacity: 60%;
+  margin: 0;
+  padding-top: 10px;
+}
+.photo-details {
+  margin-left: 25px;
+}
+.block-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 60px;
+  padding-bottom: 30px;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.note {
+  text-align: center;
+}
+.title-card {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+}
+.descr-card {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 24px;
+}
+.content {
+  display: flex;
+}
+.text1 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.text1:first-child {
+  padding-bottom: 15px;
+}
+.text2 {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+}
+.second-text-container {
+  margin-bottom: 50px;
+}
+.video-instruction {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.video-button {
+  width: 150px;
+  height: 50px;
+  color: #025cbd;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #025cbd;
+  font-weight: bold;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.video-button:hover {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #025cbd;
+  border-radius: 10px;
+  border-style: none;
+  margin-right: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.video{
+  margin-right: 30px;
+}
+.trial{
+  display: flex;
+}
+.guide-tittle{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 0;
+
+}
+.demo-descr{
+  font-size: 20px;
+}
+.demo-link{
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+  background-color: #025CBD;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border-style: none;
+}
+.trial-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
